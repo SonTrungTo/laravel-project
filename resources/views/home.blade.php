@@ -18,7 +18,7 @@
           class="col-sm-8"
         >
             <div class="pt-5">
-                <h1>Instagram Clone</h1>
+                <h1>{{ $user->username }}</h1>
             </div>
             <div class="d-flex flex-row">
                 <div class="pe-5"><strong>153</strong> posts</div>
