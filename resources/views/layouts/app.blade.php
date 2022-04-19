@@ -18,13 +18,19 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/svg/InstagramIcon.svg" >
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand d-flex flex-row align-items-center" href="{{ url('/') }}">
-                    <div style="padding-right: 10px; border-right: solid 1px #333333;">
+                    <div
+                      style="padding-right: 10px; border-right: solid 1px #333333;"
+                      class="pb-1"
+                    >
                         <img
                           src="/svg/InstagramIcon.svg"
                           width="20" height="20"
